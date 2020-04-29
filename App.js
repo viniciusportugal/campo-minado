@@ -7,7 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Iniciando o mines</Text>
+        <Text style={styles.welcome}>Campo Minado</Text>
         <Text style={styles.instructions}>Tamanho da grade:
           {params.getRowsAmount()}x{params.getColumnsAmount()}
         </Text>
